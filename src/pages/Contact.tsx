@@ -123,9 +123,10 @@ const Contact = () => {
                   <div>
                     <h3 className="font-bold">Address</h3>
                     <p className="text-gray-600">
-                      123 Science Park<br />
-                      Innovation City, ST 12345<br />
-                      United States
+                      Cabin No 17, COCUB<br />
+                      NO.16/2A, FIRST FLOOR<br />
+                      SERVICE ROAD, NEAR RING ROAD<br />
+                      VANAGARAM, CHENNAI - 6000095<br />
                     </p>
                   </div>
                 </div>
@@ -133,14 +134,14 @@ const Contact = () => {
                   <Phone className="h-6 w-6 text-indigo-600 mt-1 mr-4" />
                   <div>
                     <h3 className="font-bold">Phone</h3>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="text-gray-600">+91 7569459812</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <Mail className="h-6 w-6 text-indigo-600 mt-1 mr-4" />
                   <div>
                     <h3 className="font-bold">Email</h3>
-                    <p className="text-gray-600">info@labcrafters.com</p>
+                    <p className="text-gray-600">info@labc.IN</p>
                   </div>
                 </div>
               </div>
