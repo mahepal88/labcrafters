@@ -17,7 +17,10 @@ const Footer = () => {
             <div className="space-y-2">
               <p className="flex items-center"><Phone className="h-5 w-5 mr-2" /> +91 7569459812</p>
               <p className="flex items-center"><Mail className="h-5 w-5 mr-2" /> info@labc.in</p>
-              <p className="flex items-center"><MapPin className="h-5 w-5 mr-2" /> Cabin No 17, COCUB</p>
+              <p className="flex items-center"><MapPin className="h-5 w-5 mr-2" /> Cabin No 17, COCUB<br />
+                No.16/2A, First Floor<br />
+                Service Road, Vanagaram<br />
+                Chennai - 600095, India.</p>
             </div>
           </div>
           <div>
