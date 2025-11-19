@@ -15,9 +15,9 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Info</h3>
             <div className="space-y-2">
-              <p className="flex items-center"><Phone className="h-5 w-5 mr-2" /> +1 (555) 123-4567</p>
-              <p className="flex items-center"><Mail className="h-5 w-5 mr-2" /> info@labcrafters.com</p>
-              <p className="flex items-center"><MapPin className="h-5 w-5 mr-2" /> 123 Science Park, Innovation City</p>
+              <p className="flex items-center"><Phone className="h-5 w-5 mr-2" /> +91 7569459812</p>
+              <p className="flex items-center"><Mail className="h-5 w-5 mr-2" /> info@labc.in</p>
+              <p className="flex items-center"><MapPin className="h-5 w-5 mr-2" /> Cabin No 17, COCUB</p>
             </div>
           </div>
           <div>
