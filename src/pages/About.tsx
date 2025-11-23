@@ -59,19 +59,21 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                name: "Dr. Sarah Chen",
-                role: "CEO & Founder",
-                image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-              },
-              {
-                name: "Michael Rodriguez",
-                role: "Head of Operations",
-                image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-              },
-              {
-                name: "Dr. James Wilson",
-                role: "Technical Director",
+                name: "Nishita Mummareddy",
+                role: " CEO ",
                 image: "https://i.postimg.cc/J4dYrCRx/82ededc3-3b61-4187-a5ec-dbb9b6fb7be0.png"
+                
+              },
+              {
+                name: "Mahesh Paladugu",
+                role: "Head of Operations",
+                image: "https://i.postimg.cc/ZRBpx2GL/aad37683-3452-46e8-bbbd-88688f5fb008.png"
+                
+              },
+              {
+                name: "Shaiza Khan",
+                role: "Head of Sales",
+                image: "https://i.postimg.cc/gjywMWNy/47451520-6319-434f-b0f1-3b2d6696c4a3.png"
               }
             ].map((member, index) => (
               <div key={index} className="text-center">
