@@ -60,7 +60,7 @@ const About = () => {
             {[
               {
                 name: "Nishita Mummareddy",
-                role: " CEO ",
+                role: " Head of Strategy ",
                 image: "https://i.postimg.cc/J4dYrCRx/82ededc3-3b61-4187-a5ec-dbb9b6fb7be0.png"
                 
               },
