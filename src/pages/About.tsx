@@ -71,7 +71,7 @@ const About = () => {
               {
                 name: "Dr. James Wilson",
                 role: "Technical Director",
-                image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                image: "https://i.postimg.cc/J4dYrCRx/82ededc3-3b61-4187-a5ec-dbb9b6fb7be0.png"
               }
             ].map((member, index) => (
               <div key={index} className="text-center">
