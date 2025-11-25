@@ -1,6 +1,5 @@
 import React from 'react';
 import { FlaskRound as Flask, Shield, Truck, Award } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 const LabChemicals = () => {
   const chemicals = [
@@ -84,19 +83,16 @@ const LabChemicals = () => {
 
       {/* CTA Section */}
       <section className="bg-primary text-white py-16">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h2 className="text-3xl font-bold mb-4">Need Custom Chemical Solutions?</h2>
-    <p className="text-xl mb-8">
-      Our experts can help you find the right chemicals for your specific needs
-    </p>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold mb-4">Need Custom Chemical Solutions?</h2>
+          <p className="text-xl mb-8">Our experts can help you find the right chemicals for your specific needs</p>
+          <a href="/contact" className="inline-flex items-center bg-secondary text-white px-6 py-3 rounded-lg hover:bg-secondary-light transition duration-200">
+            Contact Our Experts
+          </a>
+        </div>
+      </section>
+    </div>
+  );
+};
 
-    <Link
-      to="/contact"
-      className="inline-flex items-center bg-secondary text-white px-6 py-3 rounded-lg hover:bg-secondary-light transition duration-200"
-    >
-      Contact Our Experts
-    </Link>
-  </div>
-</section>
-      
 export default LabChemicals;
