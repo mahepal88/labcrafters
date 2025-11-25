@@ -94,13 +94,13 @@ const LabChemicals = () => {
       to="/contact"
       className="inline-flex items-center bg-secondary text-white px-6 py-3 rounded-lg hover:bg-secondary-light transition duration-200"
     >
-      Contact Our Experts <ArrowRight className="ml-2" /> 
-      </Link>
-  </div>
+      Contact Our Experts  
+            <ArrowRight className="ml-2" />
+          </Link>
+        </div>
       </section>
-    </div> 
+    </div>
   );
 };
-  
 
 export default LabChemicals;
