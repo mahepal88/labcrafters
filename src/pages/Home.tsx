@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section 
+      <section
         className="relative h-[600px] flex items-center"
         style={{
           backgroundImage: 'url("https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80")',
@@ -18,8 +18,8 @@ const Home = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
           <h1 className="text-5xl font-bold mb-4">Welcome to Lab Crafters</h1>
           <p className="text-xl mb-8">Your Premier Scientific Equipment and Laboratory Design Partner</p>
-          <Link 
-            to="/contact" 
+          <Link
+            to="/contact"
             className="inline-flex items-center bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition"
           >
             Get Started <ArrowRight className="ml-2" />
@@ -56,8 +56,8 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Laboratory?</h2>
           <p className="text-xl mb-8">Let's discuss your requirements and create the perfect solution for you.</p>
-          <Link 
-            to="/contact" 
+          <Link
+            to="/contact"
             className="inline-flex items-center bg-white text-indigo-600 px-6 py-3 rounded-lg hover:bg-gray-100 transition"
           >
             Contact Us <ArrowRight className="ml-2" />
